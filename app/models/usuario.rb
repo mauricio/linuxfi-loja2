@@ -35,4 +35,14 @@ class Usuario < ActiveRecord::Base
     Digest::SHA1.hexdigest( "--#{senha}--#{salt}" )
   end
 
+  def self.autenticar( email, senha )
+    usuario = Usuario.where( :email => email ).first
+
+    if usuario && usuario.senha_em_hash == hashear_senha( senha, usuario.salt )
+      usuario
+    else
+      nil
+    end
+  end
+
 end

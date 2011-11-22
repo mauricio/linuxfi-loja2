@@ -1,0 +1,10 @@
+= form_for( @usuario, :url => usuario_url, :builder => BootstrapFormBuilder ) do |f|
+  %fieldset
+    %legend Crie sua conta
+    = f.text_field :nome
+    = f.text_field :email
+    = f.password_field :senha
+    = f.password_field :senha_confirmation
+    = f.check_box :termos_e_condicoes
+    .actions
+      = f.submit( 'Criar', :class => 'btn primary' )

@@ -1,6 +1,6 @@
 class BootstrapFormBuilder < ActionView::Base::FormBuilder
 
-  [ :text_field, :text_area ].each do |method|
+  [ :text_field, :text_area, :password_field, :check_box ].each do |method|
 
     define_method( method ) do |name, *args|
       wrap( name, super(name, *args) )

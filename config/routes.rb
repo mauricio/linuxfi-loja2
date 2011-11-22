@@ -53,6 +53,8 @@ Loja::Application.routes.draw do
   root :to => 'produtos#index'
 
   resources :produtos
+  resource  :usuario
+  resource  :session
 
   resources :itens do
     collection do

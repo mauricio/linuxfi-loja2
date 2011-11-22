@@ -1,0 +1,7 @@
+= form_for @usuario, :url => session_url, :builder => BootstrapFormBuilder do |f|
+  %fieldset
+    %legend Faça o seu login
+    = f.text_field :email
+    = f.password_field :senha
+    .actions
+      = f.submit 'Login', :class => 'btn primary'

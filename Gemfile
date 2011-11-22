@@ -17,11 +17,17 @@ gem 'sunspot_rails'
 
 gem 'will_paginate'
 
+group :development do
+  gem 'capistrano'
+end
+
+
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'shoulda'
   gem 'factory_girl'
+  gem 'ZenTest'
 end
 
 # Gems used only for assets and not required

@@ -1,6 +1,8 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
+  include AutorizacaoControllerHelper
+
   helper_method :pedido_atual
 
   before_filter :selecionar_lingua

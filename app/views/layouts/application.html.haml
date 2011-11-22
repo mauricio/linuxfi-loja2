@@ -11,8 +11,16 @@
         .topbar-inner
           .container
             %h3= link_to 'Minha Loja', root_url
-            - unless pedido_atual.itens.blank?
-              %ul.nav.secondary-nav
+            %ul
+              %li= link_to 'Logoff', session_url, :method => :delete, :confirm => "Tem certeza?"
+            %ul.nav.secondary-nav
+              - if logged_in?
+                %li== Seja bem vindo #{usuario_atual.nome}
+                %li= link_to 'Logoff', session_url, :method => :delete, :confirm => "Tem certeza?"
+              - else
+                %li= link_to 'Crie a sua conta', new_usuario_url
+                %li= link_to 'Faça login', new_session_url
+              - unless pedido_atual.itens.blank?
                 %li= link_to 'Veja o seu carrinho', itens_path
     .container
       = render 'compartilhados/mostrar_flash'
