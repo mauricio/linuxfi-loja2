@@ -18,6 +18,10 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="loja" />
   </component>
@@ -32,10 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-nginx-conf" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main-nginx-conf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/main-nginx-conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.90692127">
+            <state line="20" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="13" selection-start="957" selection-end="957" vertical-scroll-proportion="0.7804296">
               <folding />
             </state>
           </provider>
@@ -55,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/usuarios/new.html.haml" />
         <option value="$PROJECT_DIR$/app/controller_helpers/autorizacao_controller_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
@@ -71,6 +83,7 @@
         <option value="$PROJECT_DIR$/unicorn.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -619,11 +632,12 @@
     <frame x="4" y="22" width="796" height="578" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27331606" sideWeight="0.9926931" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28208557" sideWeight="0.9926931" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5878525" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -680,11 +694,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="42" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/unicorn-init.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="19" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" />
@@ -783,7 +792,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/main-nginx-conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.90692127">
+        <state line="20" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="13" selection-start="957" selection-end="957" vertical-scroll-proportion="0.7804296">
           <folding />
         </state>
       </provider>
