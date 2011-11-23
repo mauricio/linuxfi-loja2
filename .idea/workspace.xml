@@ -35,7 +35,7 @@
       <file leaf-file-name="main-nginx-conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/main-nginx-conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="20" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.90692127">
               <folding />
             </state>
           </provider>
@@ -783,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/main-nginx-conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="30" selection-start="371" selection-end="371" vertical-scroll-proportion="0.90692127">
           <folding />
         </state>
       </provider>
