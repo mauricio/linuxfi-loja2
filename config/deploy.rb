@@ -44,6 +44,14 @@ namespace :deploy do
 
 end
 
+namespace :list do
+
+  task :processes do
+    run "ps aux"
+  end
+
+end
+
 ['deploy', 'deploy:cold', 'deploy:migrations'].each do |t|
   after t, "deploy:cleanup"
 end
